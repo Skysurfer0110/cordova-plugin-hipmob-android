@@ -23,6 +23,7 @@
   </js-module>
   
   <platform name="android">
+    <dependency id="com.google.playservices" url="https://github.com/wf9a5m75/google-play-services#v23" /> 
     <source-file src="src/android/Hipmob.java" target-dir="src/com/hipmob/android/phonegap/plugin/" />
     <source-file src="src/android/android-hipmob.jar" target-dir="libs" />
     
